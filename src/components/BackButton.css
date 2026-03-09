@@ -1,0 +1,11 @@
+.back-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; font-weight: 600; color: var(--ink3);
+  background: var(--cream2); border: none;
+  padding: 7px 14px; border-radius: 40px;
+  cursor: pointer; margin-bottom: 22px;
+  transition: all 0.14s;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.back-btn svg { width: 12px; height: 12px; }
+.back-btn:hover { background: var(--cream3); color: var(--ink); }

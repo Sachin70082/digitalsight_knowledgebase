@@ -1,0 +1,14 @@
+.content-layout { display: grid; grid-template-columns: 200px 1fr; gap: 40px; padding-top: 32px; }
+.content-sidebar { position: sticky; top: 80px; align-self: start; }
+.toc-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: var(--ink4); margin-bottom: 10px; }
+.toc-list { list-style: none; }
+.toc-list li { margin-bottom: 2px; }
+.toc-list a {
+  display: block; padding: 6px 10px;
+  font-size: 12px; color: var(--ink3); font-weight: 500;
+  border-radius: 7px; text-decoration: none;
+  transition: all 0.12s; border-left: 2px solid transparent;
+}
+.toc-list a:hover { color: var(--blue); background: var(--blue-light); border-left-color: var(--blue); }
+.content-body { min-width: 0; }
+@media (max-width: 1000px) { .content-layout { grid-template-columns: 1fr; } .content-sidebar { display: none; } }

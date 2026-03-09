@@ -1,0 +1,46 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --cream: #f5f7fa;
+  --cream2: #eef1f6;
+  --cream3: #e2e7ef;
+  --white: #ffffff;
+  --ink: #0f172a;
+  --ink2: #1e293b;
+  --ink3: #64748b;
+  --ink4: #94a3b8;
+  --blue: #2563eb;
+  --blue-light: #eff6ff;
+  --blue-mid: #bfdbfe;
+  --teal: #0891b2;
+  --teal-light: #ecfeff;
+  --amber: #d97706;
+  --amber-light: #fffbeb;
+  --green: #16a34a;
+  --green-light: #f0fdf4;
+  --red: #dc2626;
+  --red-light: #fef2f2;
+  --r: 12px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+code {
+  background: var(--cream2);
+  border: 1px solid var(--cream3);
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: 'Courier New', monospace;
+  color: var(--teal);
+}

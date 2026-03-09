@@ -1,0 +1,20 @@
+.app { min-height: 100vh; display: flex; flex-direction: column; }
+
+.main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 32px 80px;
+  width: 100%;
+  flex: 1;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-wrap { animation: slideUp 0.32s cubic-bezier(0.22, 1, 0.36, 1); }
+
+@media (max-width: 720px) {
+  .main { padding: 0 18px 60px; }
+}
