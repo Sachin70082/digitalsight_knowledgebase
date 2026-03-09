@@ -23,6 +23,15 @@
   --r: 12px;
   --r-lg: 20px;
   --r-xl: 28px;
+  --page-px: 32px;
+}
+
+@media (max-width: 1000px) {
+  :root { --page-px: 24px; }
+}
+
+@media (max-width: 720px) {
+  :root { --page-px: 18px; }
 }
 
 html { scroll-behavior: smooth; }

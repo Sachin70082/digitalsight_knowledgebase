@@ -1,6 +1,6 @@
 .footer { background: var(--ink); margin-top: 60px; }
 .footer-inner {
-  max-width: 1180px; margin: 0 auto; padding: 32px;
+  max-width: 1180px; margin: 0 auto; padding: 32px var(--page-px);
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 20px;
 }
